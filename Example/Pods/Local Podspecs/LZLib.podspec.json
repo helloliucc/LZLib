@@ -1,0 +1,27 @@
+{
+  "name": "LZLib",
+  "version": "0.1.0",
+  "summary": "JUST TEST",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://helloliucc@github.com/helloliucc/LZLib.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "helloliucc": "liuchangcheng@58ganji.com"
+  },
+  "source": {
+    "git": "https://helloliucc@github.com/helloliucc/LZLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LZLib/Classes/**/*",
+  "public_header_files": "LZLib/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

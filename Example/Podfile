@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LZLib_Example' do
+  pod 'LZLib', :path => '../'
+
+  target 'LZLib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
